@@ -34,9 +34,6 @@ def forth_anagram?(first, second)
   first_hash == second_hash
 end
 
-def one_hash_anagram?(first, second)
-  
-end
 
 if $PROGRAM_NAME == __FILE__
   p first_anagram?("gizmo", "sally")    #=> false
